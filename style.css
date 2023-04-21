@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300&family=IBM+Plex+Serif&family=Lato:wght@700&family=Noto+Naskh+Arabic&family=Poppins:wght@400;500;600;700&display=swap');
+@font-face {
+  font-family: eid;
+  src: url(Ramadhan-Karim.otf);
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box ;
+}
+.launch .container {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(bg.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 0 8%;
+}
+.content {
+  top: 50%;
+  position: absolute;
+  transform: translateY(-50%);
+  color: #fff;
+}
+.launch h1 {
+  font-size: 64px;
+  font-weight: 500;
+  color: #fbd000;
+  margin-bottom: 10px;
+  font-family: eid;
+}
+.launch-time {
+  display: flex;
+  margin-bottom: 40px;
+}
+.launch-time div {
+  flex-basis: 100px;
+}
+.content .btn {
+  background: transparent;
+  border: 2px solid #fff;
+  outline: none;
+  padding: 12px 25px;
+  color: #fff;
+  margin-top: 25px;
+}
+
+.eid {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(bckg.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 0 8%;
+}
+.eid .content {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 60px;
+}
+.eid h3 {
+  font-family:eid;
+  text-align: center;
+  font-size: 30px;
+}
+.eid h1 {
+  color: #fbd000;
+  margin-bottom: 10px;
+}
+.eid p{
+  margin-bottom: 7px;
+}
+.eid b{
+  color: #fbd000;
+}
